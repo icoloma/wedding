@@ -228,7 +228,7 @@ div.table-wrapper { overflow-x: scroll;
 h1 .code, h2 .code, h3 .code { font-size: 0.80em; }
 
 .marginnote .code, .sidenote .code { font-size: 1rem; }
-.marginnote img, .sidenote img { display: block; }
+.marginnote img, .sidenote img { display: block; margin-bottom: .7rem;}
 
 pre.code { width: 52.5%;
            padding-left: 2.5%;
@@ -245,6 +245,8 @@ input.margin-toggle { display: none; }
 label.sidenote-number { display: inline; }
 
 label.margin-toggle:not(.sidenote-number) { display: none; }
+
+thead > tr > td { font-weight: bold; text-decoration: underline; }
 
 @media (max-width: 760px) { label.margin-toggle:not(.sidenote-number) { display: inline; }
                             .sidenote, .marginnote { display: none; }
